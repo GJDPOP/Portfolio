@@ -1,0 +1,180 @@
+body{
+    display: flex;
+    background-image: url("../images/bg.jpg");
+    min-height: 100px;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.box{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1)
+}
+.box .lb{
+    position: relative;
+    background: violet;
+    padding: 40px;
+}
+.box .rb{
+    position: relative;
+    background: lightblue;
+    padding: 40px;
+}
+.a{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 10px ;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+.a .pic{
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  
+}
+.a .pic img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.a h2{
+  color: black;
+  font-size: 1.5em;
+  margin-top: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1em;
+}
+.a h2 span{
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.cinf{
+  position: relative;
+  display: flex;
+  color: black;
+  text-align: center;
+  left: 15px;
+   top: 10px;
+   padding-bottom: 10px;
+}
+.b{
+
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+.skl{
+  color: black;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+.skl .c
+{
+  text-align: center;
+}
+.skl .d{
+  list-style-type: none;
+}
+.skl .f
+{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: black;
+  display: block;
+  left: -20px;
+}
+.skl .f div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 100%;
+  background: white;
+}
+.skl .g{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: black;
+  display: block;
+  left: -20px;
+}
+.skl .g div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  background: white;
+}
+.skl .h{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background: black;
+  display: block;
+  left: -20px;
+}
+.skl .h div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 100%;
+  background: white;
+}
+.skl .i{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background:pink;
+  display: block;
+  left: -20px;
+}
+.skl .i div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 100%;
+  background: black;
+}
+.j{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+.k{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+.l{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+.m{
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  border-color: black;
+}
+header{
+  background: red;
+  padding: 20px;
+}
